@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C06D7DF519F70C580065471E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C06D7DF419F70C580065471E /* main.m */; };
+		C06D7DF819F70C580065471E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C06D7DF719F70C580065471E /* AppDelegate.m */; };
+		C06D7DFA19F70C580065471E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C06D7DF919F70C580065471E /* Images.xcassets */; };
+		C06D7DFD19F70C580065471E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C06D7DFB19F70C580065471E /* MainMenu.xib */; };
+		C06D7E0919F70C590065471E /* RMArrayStreamerExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C06D7E0819F70C590065471E /* RMArrayStreamerExampleTests.m */; };
+		C06D7E1819F70C7D0065471E /* RMArrayStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = C06D7E1319F70C7D0065471E /* RMArrayStreamer.m */; };
+		C06D7E1919F70C7D0065471E /* RMArrayStreamer+Remote.m in Sources */ = {isa = PBXBuildFile; fileRef = C06D7E1519F70C7D0065471E /* RMArrayStreamer+Remote.m */; };
+		C06D7E1A19F70C7D0065471E /* RMStreamingPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C06D7E1719F70C7D0065471E /* RMStreamingPlayer.m */; };
+		C06D7E1D19F70CAC0065471E /* AudioEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = C06D7E1C19F70CAC0065471E /* AudioEngine.m */; };
+		C06D7E1F19F70E500065471E /* temp.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C06D7E1E19F70E500065471E /* temp.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C06D7E0319F70C590065471E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C06D7DE719F70C580065471E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C06D7DEE19F70C580065471E;
+			remoteInfo = RMArrayStreamerExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C06D7DEF19F70C580065471E /* RMArrayStreamerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RMArrayStreamerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C06D7DF319F70C580065471E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C06D7DF419F70C580065471E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C06D7DF619F70C580065471E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C06D7DF719F70C580065471E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C06D7DF919F70C580065471E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C06D7DFC19F70C580065471E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C06D7E0219F70C590065471E /* RMArrayStreamerExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RMArrayStreamerExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C06D7E0719F70C590065471E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C06D7E0819F70C590065471E /* RMArrayStreamerExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMArrayStreamerExampleTests.m; sourceTree = "<group>"; };
+		C06D7E1219F70C7D0065471E /* RMArrayStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMArrayStreamer.h; path = ../RMArrayStreamer.h; sourceTree = "<group>"; };
+		C06D7E1319F70C7D0065471E /* RMArrayStreamer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RMArrayStreamer.m; path = ../RMArrayStreamer.m; sourceTree = "<group>"; };
+		C06D7E1419F70C7D0065471E /* RMArrayStreamer+Remote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "RMArrayStreamer+Remote.h"; path = "../RMArrayStreamer+Remote.h"; sourceTree = "<group>"; };
+		C06D7E1519F70C7D0065471E /* RMArrayStreamer+Remote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "RMArrayStreamer+Remote.m"; path = "../RMArrayStreamer+Remote.m"; sourceTree = "<group>"; };
+		C06D7E1619F70C7D0065471E /* RMStreamingPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMStreamingPlayer.h; path = ../RMStreamingPlayer.h; sourceTree = "<group>"; };
+		C06D7E1719F70C7D0065471E /* RMStreamingPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RMStreamingPlayer.m; path = ../RMStreamingPlayer.m; sourceTree = "<group>"; };
+		C06D7E1B19F70CAC0065471E /* AudioEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioEngine.h; sourceTree = "<group>"; };
+		C06D7E1C19F70CAC0065471E /* AudioEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioEngine.m; sourceTree = "<group>"; };
+		C06D7E1E19F70E500065471E /* temp.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = temp.mp3; path = ../../../../Dropbox/Public/temp.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C06D7DEC19F70C580065471E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C06D7DFF19F70C590065471E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C06D7DE619F70C580065471E = {
+			isa = PBXGroup;
+			children = (
+				C06D7E1219F70C7D0065471E /* RMArrayStreamer.h */,
+				C06D7E1319F70C7D0065471E /* RMArrayStreamer.m */,
+				C06D7E1419F70C7D0065471E /* RMArrayStreamer+Remote.h */,
+				C06D7E1519F70C7D0065471E /* RMArrayStreamer+Remote.m */,
+				C06D7E1619F70C7D0065471E /* RMStreamingPlayer.h */,
+				C06D7E1719F70C7D0065471E /* RMStreamingPlayer.m */,
+				C06D7E1E19F70E500065471E /* temp.mp3 */,
+				C06D7DF119F70C580065471E /* RMArrayStreamerExample */,
+				C06D7E0519F70C590065471E /* RMArrayStreamerExampleTests */,
+				C06D7DF019F70C580065471E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C06D7DF019F70C580065471E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C06D7DEF19F70C580065471E /* RMArrayStreamerExample.app */,
+				C06D7E0219F70C590065471E /* RMArrayStreamerExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C06D7DF119F70C580065471E /* RMArrayStreamerExample */ = {
+			isa = PBXGroup;
+			children = (
+				C06D7DF619F70C580065471E /* AppDelegate.h */,
+				C06D7DF719F70C580065471E /* AppDelegate.m */,
+				C06D7E1B19F70CAC0065471E /* AudioEngine.h */,
+				C06D7E1C19F70CAC0065471E /* AudioEngine.m */,
+				C06D7DF919F70C580065471E /* Images.xcassets */,
+				C06D7DFB19F70C580065471E /* MainMenu.xib */,
+				C06D7DF219F70C580065471E /* Supporting Files */,
+			);
+			path = RMArrayStreamerExample;
+			sourceTree = "<group>";
+		};
+		C06D7DF219F70C580065471E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C06D7DF319F70C580065471E /* Info.plist */,
+				C06D7DF419F70C580065471E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C06D7E0519F70C590065471E /* RMArrayStreamerExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				C06D7E0819F70C590065471E /* RMArrayStreamerExampleTests.m */,
+				C06D7E0619F70C590065471E /* Supporting Files */,
+			);
+			path = RMArrayStreamerExampleTests;
+			sourceTree = "<group>";
+		};
+		C06D7E0619F70C590065471E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C06D7E0719F70C590065471E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C06D7DEE19F70C580065471E /* RMArrayStreamerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C06D7E0C19F70C590065471E /* Build configuration list for PBXNativeTarget "RMArrayStreamerExample" */;
+			buildPhases = (
+				C06D7DEB19F70C580065471E /* Sources */,
+				C06D7DEC19F70C580065471E /* Frameworks */,
+				C06D7DED19F70C580065471E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RMArrayStreamerExample;
+			productName = RMArrayStreamerExample;
+			productReference = C06D7DEF19F70C580065471E /* RMArrayStreamerExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C06D7E0119F70C590065471E /* RMArrayStreamerExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C06D7E0F19F70C590065471E /* Build configuration list for PBXNativeTarget "RMArrayStreamerExampleTests" */;
+			buildPhases = (
+				C06D7DFE19F70C590065471E /* Sources */,
+				C06D7DFF19F70C590065471E /* Frameworks */,
+				C06D7E0019F70C590065471E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C06D7E0419F70C590065471E /* PBXTargetDependency */,
+			);
+			name = RMArrayStreamerExampleTests;
+			productName = RMArrayStreamerExampleTests;
+			productReference = C06D7E0219F70C590065471E /* RMArrayStreamerExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C06D7DE719F70C580065471E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = reactify;
+				TargetAttributes = {
+					C06D7DEE19F70C580065471E = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					C06D7E0119F70C590065471E = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = C06D7DEE19F70C580065471E;
+					};
+				};
+			};
+			buildConfigurationList = C06D7DEA19F70C580065471E /* Build configuration list for PBXProject "RMArrayStreamerExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C06D7DE619F70C580065471E;
+			productRefGroup = C06D7DF019F70C580065471E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C06D7DEE19F70C580065471E /* RMArrayStreamerExample */,
+				C06D7E0119F70C590065471E /* RMArrayStreamerExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C06D7DED19F70C580065471E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C06D7DFA19F70C580065471E /* Images.xcassets in Resources */,
+				C06D7DFD19F70C580065471E /* MainMenu.xib in Resources */,
+				C06D7E1F19F70E500065471E /* temp.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C06D7E0019F70C590065471E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C06D7DEB19F70C580065471E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C06D7E1D19F70CAC0065471E /* AudioEngine.m in Sources */,
+				C06D7DF819F70C580065471E /* AppDelegate.m in Sources */,
+				C06D7DF519F70C580065471E /* main.m in Sources */,
+				C06D7E1A19F70C7D0065471E /* RMStreamingPlayer.m in Sources */,
+				C06D7E1819F70C7D0065471E /* RMArrayStreamer.m in Sources */,
+				C06D7E1919F70C7D0065471E /* RMArrayStreamer+Remote.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C06D7DFE19F70C590065471E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C06D7E0919F70C590065471E /* RMArrayStreamerExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C06D7E0419F70C590065471E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C06D7DEE19F70C580065471E /* RMArrayStreamerExample */;
+			targetProxy = C06D7E0319F70C590065471E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C06D7DFB19F70C580065471E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C06D7DFC19F70C580065471E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C06D7E0A19F70C590065471E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C06D7E0B19F70C590065471E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C06D7E0D19F70C590065471E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RMArrayStreamerExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C06D7E0E19F70C590065471E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RMArrayStreamerExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C06D7E1019F70C590065471E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RMArrayStreamerExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RMArrayStreamerExample.app/Contents/MacOS/RMArrayStreamerExample";
+			};
+			name = Debug;
+		};
+		C06D7E1119F70C590065471E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RMArrayStreamerExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RMArrayStreamerExample.app/Contents/MacOS/RMArrayStreamerExample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C06D7DEA19F70C580065471E /* Build configuration list for PBXProject "RMArrayStreamerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C06D7E0A19F70C590065471E /* Debug */,
+				C06D7E0B19F70C590065471E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C06D7E0C19F70C590065471E /* Build configuration list for PBXNativeTarget "RMArrayStreamerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C06D7E0D19F70C590065471E /* Debug */,
+				C06D7E0E19F70C590065471E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C06D7E0F19F70C590065471E /* Build configuration list for PBXNativeTarget "RMArrayStreamerExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C06D7E1019F70C590065471E /* Debug */,
+				C06D7E1119F70C590065471E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C06D7DE719F70C580065471E /* Project object */;
+}
